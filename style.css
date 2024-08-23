@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    background: rgb(246, 225, 157);
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center ;
+}
+section#main div.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+section#main div.main h1#height {
+    color: red;
+    font-size: 40px;
+}
+section#main div.main h1#width {
+    color: blue;
+    font-size: 40px;
+}
+
+
